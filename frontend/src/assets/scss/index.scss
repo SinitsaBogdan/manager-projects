@@ -1,0 +1,16 @@
+@import url("./normalize.scss");
+@import url("./font.scss");
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: max-content;
+  height: 100%;
+}
+
+#root {
+  min-height: max-content;
+  height: 100%;
+}
