@@ -1,0 +1,89 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 94%;
+    min-height: 300px;
+
+    margin: 20px 0;
+    padding: 30px 40px;
+
+    background-color: #cfcece;
+
+    border-radius: 50px;
+
+    a {
+        color: black;
+    }
+
+    .number {
+        width: 100%;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    &__header {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    &__type {
+        padding-top: 10px;
+    }
+
+    &__contents {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    &__modules {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 20px;
+
+        width: 100%;
+        padding-top: 6px;
+    }
+
+    &__buttoms {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 30px;
+
+        width: 100%;
+    }
+
+    &__pages {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    &__pages-wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        padding-top: 40px;
+    }
+}
