@@ -1,0 +1,15 @@
+.Task {
+    padding: 20px 10px 10px 30px;
+    width: 80%;
+
+    color: beige;
+
+    &__title {
+        padding: 10px 0px;
+        font-size: 1.8rem;
+    }
+
+    &__description {
+        font-size: 1.1rem;
+    }
+}
