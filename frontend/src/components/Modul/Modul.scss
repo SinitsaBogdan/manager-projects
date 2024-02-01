@@ -1,0 +1,11 @@
+.Modul {
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.562);
+
+    &__title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
