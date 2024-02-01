@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Авторизация / Личный кабинет",
+        "description": "",
+        "price": 500
+    },
+    {
+        "title": "Корзина",
+        "description": "",
+        "price": 500
+    },
+    {
+        "title": "Каталог",
+        "description": "",
+        "price": 500
+    },
+    {
+        "title": "Навигация по каталогу",
+        "description": "",
+        "price": 500
+    },
+    {
+        "title": "Модуль - Вакансии",
+        "description": "",
+        "price": 500
+    },
+    {
+        "title": "Адаптация",
+        "description": "",
+        "price": 500
+    }
+]
