@@ -1,18 +1,18 @@
 .CardPage {
-    width: 24rem;
-    text-align: center;
-    background-color: rgb(230, 230, 120);
-    border-radius: 20px;
-    padding: 16px 16px;
+	width: 24rem;
+	border-radius: 20px;
+	padding: 16px 16px;
+	text-align: center;
+	background-color: rgb(230, 230, 120);
 
-    &__name {
-        font-weight: bold;
-        font-size: 18px;
-        padding-bottom: 10px;
-    }
+	&__name {
+		padding-bottom: 10px;
+		font-weight: bold;
+		font-size: 18px;
+	}
 
-    &__url {
-        font-weight: normal;
-        font-size: 16px;
-    }
+	&__url {
+		font-weight: normal;
+		font-size: 16px;
+	}
 }

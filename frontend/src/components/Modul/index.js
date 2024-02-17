@@ -1,2 +1,2 @@
-import Modul from "./Modul";
+import Modul from './Modul';
 export default Modul;
