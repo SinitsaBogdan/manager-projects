@@ -1,2 +1,2 @@
-import CardPage from "./CardPage";
+import CardPage from './CardPage';
 export default CardPage;

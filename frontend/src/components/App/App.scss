@@ -1,28 +1,24 @@
 .App {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
 
-    position: sticky;
+	&__panel_left {
+		position: sticky;
+		top: 0px;
+		width: 50%;
+		height: 100vh;
 
-    &__panel_left {
-        width: 120%;
-        height: 100vh;
+		background-color: #504848;
+	}
 
-        position: sticky;
-        top: 0px;
-
-        background-color: #504848;
-    }
-
-    &__panel_right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    
+	&__panel_right {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }
