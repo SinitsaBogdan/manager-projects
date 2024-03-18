@@ -1,0 +1,6 @@
+.content__list {
+}
+
+.content__list li:not(:last-child) {
+	margin-block-end: 0.6rem;
+}

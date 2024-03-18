@@ -1,0 +1,14 @@
+@import url('./blocks/aside/__list/adside__list.css');
+@import url('./blocks/aside/__item/aside__item.css');
+@import url('./blocks/aside/__item_title/aside__item_title.css');
+@import url('./blocks/aside/__item-active/aside__item-active.css');
+
+.aside {
+	background-color: #c0131350;
+	inline-size: 20%;
+	padding-block: 0.6rem;
+	padding-inline-start: 1rem;
+	position: sticky;
+	top: 0;
+	block-size: 100vh;
+}

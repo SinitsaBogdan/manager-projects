@@ -1,0 +1,9 @@
+.aside__item-active::before {
+	content: '';
+	position: absolute;
+	block-size: 2px;
+	background-color: currentColor;
+	inline-size: 240%;
+	bottom: 2px;
+    left: -30%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="color-scheme" content="dark light" />
+		<!-- <link rel="icon" href="svg/favicon.ico" />
+		<link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="svg/mobile-favicon.png" /> -->
+		<link rel="stylesheet" href="./pages/index.css" />
+		<title>Manager Projects</title>
+		<meta name="description" content="Приложение менеджера проектов для дальнейшей разработки" />
+		<!-- <script src="../scripts/set-theme.js"></script> -->
+	</head>
+	<body class="page">
+		<header class="header">
+			<h1 class="header__title">Менеджер проектов</h1>
+		</header>
+		<main class="content">
+			<aside class="aside">
+				<ul class="aside__list">
+					<li class="aside__item aside__item-active">
+						<h2 class="aside__item_title">Все</h2>
+					</li>
+					<li class="aside__item">
+						<h2 class="aside__item_title">Интернет магазины</h2>
+					</li>
+					<li class="aside__item">
+						<h2 class="aside__item_title">Визитки</h2>
+					</li>
+					<li class="aside__item">
+						<h2 class="aside__item_title">CRM</h2>
+					</li>
+				</ul>
+			</aside>
+			<section class="content__wrapper">
+				<ul class="content__list"></ul>
+			</section>
+		</main>
+		<footer class="footer">Подвал</footer>
+
+		<template id="card-template">
+			<li class="card">
+				<header class="card__header">
+					<span class="card__priority" href="#">figma</span>
+					<span class="card__number"></span>
+				</header>
+				<h2 class="card__title"></h2>
+				<p class="card__description"></p>
+				<p class="card__note"></p>
+				<div class="card__controller">
+					<a class="btn card__btn-figma" href="#">figma</a>
+					<a class="btn card__btn-git" href="#">git</a>
+					<a class="btn card__btn-task" href="#">task</a>
+					<a class="btn card__btn-doc" href="#">doc</a>
+				</div>
+			</li>
+		</template>
+
+		<script type="module" src="./scripts/data-figma.js"></script>
+		<script type="module" src="./scripts/index.js" defer></script>
+	</body>
+</html>

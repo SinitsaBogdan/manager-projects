@@ -1,0 +1,9 @@
+@import url('./blocks/header/__title/header__title.css');
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	padding-block: 1rem;
+}
