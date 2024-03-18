@@ -1,0 +1,15 @@
+@import url('./__title/card__title.css');
+@import url('./__description/card__description.css');
+@import url('./__note/card__note.css');
+@import url('./__header/card__header.css');
+@import url('./__priority/card__priority.css');
+@import url('./__number/card__number.css');
+@import url('./__controller/card__controller.css');
+
+.card {
+	display: flex;
+	flex-direction: column;
+	padding-inline: 0.4rem;
+	padding-block: 1rem;
+	background-color: #1cad4c50;
+}

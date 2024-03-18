@@ -1,0 +1,5 @@
+.aside__item {
+	position: relative;
+	padding-block: 0.4rem;
+	inline-size: max-content;
+}

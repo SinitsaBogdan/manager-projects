@@ -1,0 +1,9 @@
+.btn {
+	text-transform: uppercase;
+	color: currentColor;
+	padding-block: 0.2rem;
+	padding-inline: 0.6rem;
+	border: 1px solid currentColor;
+	font-size: 12px;
+	letter-spacing: 2px;
+}

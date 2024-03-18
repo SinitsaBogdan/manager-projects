@@ -1,0 +1,3 @@
+.aside__item_title {
+	font-size: clamp(10px, 0.8rem, 20px);
+}

@@ -1,0 +1,7 @@
+.card__number {
+	font-size: 10px;
+}
+
+.card__number::before {
+	content: '# ';
+}
